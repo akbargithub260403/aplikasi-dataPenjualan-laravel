@@ -1,11 +1,26 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<h2>Aplikasi Files Storages</h2>
+<p>Aplikasi ini dirancang menggunakan Framework PHP Laravel versi 7. Aplikasi ini dibuat untuk dapat memudahkan pengelolaan files bagi dosen untuk mahasiswa.</p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<p><b>NOTE: lakukan perintah berikut , sebelum menjalankan Aplikasi</b></p>
+<ul>
+	<li>copy lalu paste file .env.example dan rename nama file menjadi .env</li>
+	<li>masukan konfigurasi database anda di file .env</li>
+	<li>ketikan perintah di terminal anda <i><b>php artisan migrate</b></i></li>
+	<li>setelah melakukan migration , lakukan perintah <i><b>php artisan db:seed</b></i></li>
+	<li>Setelah semua perintah selesai di lakukan , Aplikasi Siap untuk digunakan</li>
+</ul>
+
+<h2>Fitur Aplikasi</h2>
+<p>Aplikasi ini memiliki beberapa fitur.</p>
+
+<ul>
+	<li>Bootstrap 4</li>
+	<li>Login</li>
+	<li>Import Data Barang</li>
+	<li>Export Data Barang</li>
+    <li>Delete Data Barang</li>
+    <li>Search Engine</li>
+</ul>
 
 ## About Laravel
 
